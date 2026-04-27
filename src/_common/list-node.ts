@@ -8,6 +8,7 @@ class ListNode {
     this.next = next
   }
 
+  // todo: check if the list has a loop (Floyd's algorithm)
   mapToArr(): number[] {
     const arr: number[] = []
     let node: ListNode | null = this // eslint-disable-line @typescript-eslint/no-this-alias
